@@ -50,6 +50,5 @@
 
 4. Start the frontend: npm start (in the frontend directory)
 
-5. Visit http://localhost:3000 to view the app!
 
 
