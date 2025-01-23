@@ -1,0 +1,20 @@
+{
+  "name": "s76_the_funny_vibes",
+  "version": "1.0.0",
+  "description": "**The FunnyVibes** is an engaging online platform where users can create, browse, and share their favorite memes. Designed for meme enthusiasts, this platform allows users to upload their own images, create memes with captions, and interact with a thriving community. Users can also categorize memes into fun types such as relatable, dad jokes, and trending topics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
