@@ -1,4 +1,5 @@
 
+
 # The FunnyVibes!
 
 ## The Ultimate Destination for Funny Memes
@@ -49,6 +50,4 @@
 3. Start the backend: npm run dev (in the backend directory)
 
 4. Start the frontend: npm start (in the frontend directory)
-
-
 
