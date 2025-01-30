@@ -2,8 +2,8 @@ const express=require('express');
 const app=express();
 const port =3000; 
 
-app.get('/ping',(req,res)=>{
-    res.send('Pong!');
+app.get('/welcome',(req,res)=>{
+    res.send('Welcome to The Funny Vibes');
 });
 
 app.listen(port, ()=>{

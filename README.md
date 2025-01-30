@@ -52,4 +52,4 @@
 
 4. Start the frontend: npm start (in the frontend directory)
 
-
+Deloyed link :- https://s76-the-funny-vibes-4.onrender.com
