@@ -1,11 +1,17 @@
-const express=require('express');
-const app=express();
-const port =3000; 
+require('dotenv').config(); 
 
-app.get('/welcome',(req,res)=>{
-    res.send('Welcome to The Funny Vibes');
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+const dotenv =require("dotenv");
+const connectDatabase = require('./database');
+
+app.get('/welcome', (req, res) => {
+    res.send('Welcome to The Funny Vibes!');
 });
 
-app.listen(port, ()=>{
+connectDatabase();
+
+app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
